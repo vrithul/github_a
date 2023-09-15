@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Christ_University">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="School_of_science">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MCA" type="xs:string" />
+              <xs:element name="BCA" type="xs:string" />
+              <xs:element name="BScDS" type="xs:string" />
+              <xs:element name="MSc_Eco" type="xs:string" />
+              <xs:element name="PhD_maths" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="School_of_buiness_and_management">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BBA" type="xs:string" />
+              <xs:element name="MBA" type="xs:string" />
+              <xs:element name="BBAH" type="xs:string" />
+              <xs:element name="PhdM" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="School_of_law">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BBALLB" type="xs:string" />
+              <xs:element name="LLM" type="xs:string" />
+              <xs:element name="PhDL" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="School_of_Arts_and_Humanities">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MAE" type="xs:string" />
+              <xs:element name="BAM" type="xs:string" />
+              <xs:element name="PhDE" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="School_of_Social_Sciences">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BAP" type="xs:string" />
+              <xs:element name="MScCP" type="xs:string" />
+              <xs:element name="PhDE" type="xs:string" />
+              <xs:element name="PhDP" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

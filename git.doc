@@ -1,0 +1,3 @@
+To Clone a repositories which is public only: Use the below code in the terminal
+   - git clone (url of the git)
+
